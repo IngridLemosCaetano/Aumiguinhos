@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --cor-main-blue: #84c8ff;
+    --cor-main-medium-blue: #ADDAFF;
+    --cor-main-light-blue: #D6EDFF;
+    --cor-main-orange: #FFB74D;
+    --cor-main-medium-orange: #FFCE85;
+    --cor-main-light-orange: #FFDEAD;
+
+    --cor-neutral-black: #000000;
+    --cor-neutral-white: #F8F9FA;
+    --cor-neutral-grey: #DEDADA;
+
+    --font-main: "DM Sans", "sans-serif";
+    --font-secondary: "IBM Plex San", "sans-serif";
+}
