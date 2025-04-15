@@ -1,7 +1,10 @@
 @import url(./global.css);
 
+/* ----------------------Header---------------------- */
 header{
-    position: relative;    
+    position: static;
+    /* position: sticky; */
+    /* top: 0px;     */
 }
 
 .logo img{
@@ -36,5 +39,60 @@ header{
 }
 
 .nav-header ul a li:hover{
-    color: rgba(0, 0, 0,0.5);
+    color: #094074;
 }
+
+/* ----------------------Fim Header---------------------- */
+
+/* ----------------------Main---------------------- */
+main{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    margin-top: 300px;
+    border-bottom: 3px solid var(--cor-main-blue);
+}
+
+main img{
+    margin-top: 50px;
+    width: 700px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.content p{
+    width: 504px;
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    color: var(--cor-neutral-black);
+    text-align: center;
+}
+
+.main-btn{
+    /* width: 290px; */
+    width: 704px;
+    display: flex;
+    justify-content: center;    
+}
+
+.main-btn a{
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--cor-neutral-black);
+    transition: 1s;
+}
+
+.main-btn a:hover{
+    color: #165a9b;
+    font-size: 1.75rem;
+}
+
+
+/* ----------------------Fim Main---------------------- */
