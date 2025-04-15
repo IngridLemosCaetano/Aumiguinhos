@@ -1,1 +1,40 @@
 @import url(./global.css);
+
+header{
+    position: relative;    
+}
+
+.logo img{
+    width: 16.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 0.4rem;
+    left: 1.6rem;
+}
+
+.nav-header{
+    background-color: var(--cor-main-light-blue);
+    padding: 1rem 6.25rem 1rem 12rem;
+    border-radius: 2.2rem;
+    position: absolute;
+    z-index: 0;
+    top: 7.8rem;
+    left: 6.4rem;
+
+}
+.nav-header ul{
+    display: flex;
+    gap: 6rem;
+}
+
+.nav-header ul a li{
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: var(--cor-neutral-black);
+    text-transform: uppercase;
+}
+
+.nav-header ul a li:hover{
+    color: rgba(0, 0, 0,0.5);
+}
